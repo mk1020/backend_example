@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>calc</title>
+  <script  src="server.js"></script>
+  <script src="nginx.js"></script>
+  <script  src="front.js"></script>
+</head>
+<body>
+  <input type="number" id="firstValue" required>
+  <input type="number" id="secondValue" required>
+  <span>результат: <span id="result"></span></span>
+  
+  <div>
+    Прибавить
+    <input type="radio" required id="operationAdd" name="operation">
+  </div>
+  
+  <div>
+    Умножить
+    <input type="radio" required id="operationMultiply" name="operation">
+  </div>
+  
+  <div>
+    Разделить
+    <input type="radio" required id="operationDivide" name="operation">
+  </div>
+  
+  <div>ip address of client</div>
+  <input type="text" id="ip" required>
+  
+  <div>
+    <input type="submit" id="submitButton">
+  </div>
+
+</body>
+</html>
